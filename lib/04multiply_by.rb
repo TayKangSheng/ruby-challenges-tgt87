@@ -9,3 +9,10 @@
 # > 5
 # > 10
 # > 15
+
+def multiply_by(arr, num)
+  newarr = arr.map { |x| x * num }
+  newarr.each { |y| p y }
+end
+
+multiply_by([1, 2, 3], 5)

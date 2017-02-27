@@ -17,3 +17,9 @@ contacts = {
   Lenny: '444-444-4444',
   Daniel: '777-777-7777'
 }
+
+def print_contacts(hash)
+  hash.each { |key, value| puts "#{key} has a phone number of #{value}" }
+end
+
+print_contacts(contacts)
